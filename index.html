@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>5000 Золота в Standoff 2 всего за 1 рубль — Лимитированное спецпредложение</title>
+  <meta name="description" content="Успей получить 5000 Золота (G) в Standoff 2 всего за 1 рубль! Количество мест строго ограничено. Пополни инвентарь топовыми скинами и ножами прямо сейчас!" />
+  <meta name="theme-color" content="#090b10" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="5000 Золота в Standoff 2 за 1₽ — Спецпредложение" />
+  <meta property="og:description" content="Забери 5000 G на свой аккаунт Standoff 2 за 1 рубль. Мгновенная доставка на игровой профиль!" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Canvas for Golden Embers and Cyber Grid -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Ambient Glow Overlays -->
+  <div class="ambient-light light-top"></div>
+  <div class="ambient-light light-right"></div>
+  <div class="ambient-light light-left"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="#" class="nav-brand" aria-label="GoldRush Логотип">
+        <div class="brand-badge">
+          <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">GOLDRUSH</span>
+          <span class="brand-sub">SO2 SPECIAL</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a href="#how-it-works" class="nav-link">Инструкция</a>
+        <a href="#benefits" class="nav-link">Преимущества</a>
+        <a href="#reviews" class="nav-link">Отзывы</a>
+      </div>
+
+      <a class="nav-cta-btn" href="#get-gold">
+        <span>Активировать 5000G</span>
+        <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+          <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container container">
+        
+        <!-- Live Promo Status Badge -->
+        <div class="promo-pill">
+          <span class="pulsing-radar"></span>
+          <span class="pill-text">Эксклюзивная промо-раздача • <strong id="slots-count">9 свободных мест</strong></span>
+        </div>
+
+        <!-- Main Title -->
+        <h1 class="hero-heading">
+          <span class="gold-gradient-text">5 000 ЗОЛОТА</span><br>
+          <span class="sub-heading-text">НА БАЛАНС STANDOFF&nbsp;2</span>
+        </h1>
+
+        <p class="hero-lead">
+          Успей урвать <strong>5 000 G</strong> в свой профиль всего за <strong>1 рубль</strong>.<br>
+          Забирай топовые ножи, редкие перчатки и побеждай с роскошным инвентарем!
+        </p>
+
+        <!-- Dynamic Value & Price Comparison Showcase -->
+        <div class="deal-showcase">
+          <div class="coin-halo-effect"></div>
+          
+          <div class="deal-card deal-pack">
+            <div class="deal-icon-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M12 7v10M9 9h6M9 15h6"></path>
+              </svg>
+            </div>
+            <div class="deal-pack-content">
+              <span class="pack-value">5 000</span>
+              <span class="pack-label">Золотых Монет (G)</span>
+            </div>
+          </div>
+
+          <div class="deal-connector">
+            <span class="deal-arrow-label">всего за</span>
+            <div class="deal-line"></div>
+          </div>
+
+          <div class="deal-card deal-price">
+            <span class="price-chip">Символически</span>
+            <span class="price-amount">1 ₽</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="hero-action-group">
+          <a class="cta-button-primary" href="#get-gold">
+            <span class="cta-shine"></span>
+            <span class="btn-icon">⚡</span>
+            <span class="btn-text">Забрать 5 000 Золота за 1₽</span>
+            <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <a class="cta-button-ghost" href="#how-it-works">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="10 8 16 12 10 16 10 8"></polygon>
+            </svg>
+            <span>Пошаговая инструкция</span>
+          </a>
+        </div>
+
+        <!-- Real-time Progress Bar for Urgency -->
+        <div class="slots-progress-wrapper">
+          <div class="slots-header">
+            <span>Лимит промо-пула: <strong>491 / 500 выдано</strong></span>
+            <span class="slots-percent">98.2%</span>
+          </div>
+          <div class="slots-bar-track">
+            <div class="slots-bar-fill" style="width: 98.2%;"></div>
+          </div>
+        </div>
+
+        <!-- Trust Features Strip -->
+        <div class="trust-features-strip">
+          <div class="trust-badge">
+            <span class="tb-icon">🛡️</span>
+            <span>Банковское шифрование</span>
+          </div>
+          <div class="trust-badge">
+            <span class="tb-icon">⚡</span>
+            <span>Авто-доставка за 90 сек</span>
+          </div>
+          <div class="trust-badge">
+            <span class="tb-icon">🎮</span>
+            <span>65 000+ геймеров</span>
+          </div>
+          <div class="trust-badge">
+            <span class="tb-icon">⭐</span>
+            <span>Рейтинг доверия 4.97 / 5</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== COUNTDOWN TIMER MODULE ===== -->
+    <section class="timer-section">
+      <div class="container">
+        <div class="countdown-card reveal">
+          <div class="countdown-head">
+            <span class="flame-icon">🔥</span>
+            <span class="timer-title">Срок действия спеццены 1₽ истекает через:</span>
+          </div>
+
+          <div class="timer-scoreboard">
+            <div class="timer-box">
+              <div class="timer-digit" id="timer-hours">05</div>
+              <span class="timer-unit">Часов</span>
+            </div>
+            <div class="timer-divider">:</div>
+            <div class="timer-box">
+              <div class="timer-digit" id="timer-minutes">48</div>
+              <span class="timer-unit">Минут</span>
+            </div>
+            <div class="timer-divider">:</div>
+            <div class="timer-box">
+              <div class="timer-digit highlight-pulse" id="timer-seconds">20</div>
+              <span class="timer-unit">Секунд</span>
+            </div>
+          </div>
+
+          <p class="timer-note">По окончании таймера стоимость вернется к стандартной цене 500 рублей.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS SECTION ===== -->
+    <section class="steps-section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading text-center reveal">
+          <span class="section-badge">Легкий процесс</span>
+          <h2 class="section-main-title">3 быстрых шага к золоту</h2>
+          <p class="section-subtitle">Вся процедура займет не более 90 секунд. Без сложных настроек и ожидания!</p>
+        </div>
+
+        <div class="steps-grid">
+          
+          <div class="step-card reveal">
+            <div class="step-number-tag">ЭТАП 01</div>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="step-heading">Кликни по кнопке</h3>
+            <p class="step-paragraph">
+              Жми «Забрать 5 000 Золота» для моментального перехода на защищенную страницу активации бонуса.
+            </p>
+            <div class="step-time-pill">⏱️ 5 секунд</div>
+          </div>
+
+          <div class="step-card reveal" style="transition-delay: 0.15s;">
+            <div class="step-number-tag">ЭТАП 02</div>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                <line x1="1" y1="10" x2="23" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="step-heading">Активация за 1₽</h3>
+            <p class="step-paragraph">
+              Подтверди стартовую оплату всего в 1 рубль через безопасный банковский шлюз. Ваши реквизиты надежно защищены.
+            </p>
+            <div class="step-time-pill">🔒 30 секунд</div>
+          </div>
+
+          <div class="step-card reveal" style="transition-delay: 0.3s;">
+            <div class="step-number-tag">ЭТАП 03</div>
+            <div class="step-icon-wrap highlight-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <h3 class="step-heading">Монеты на счете</h3>
+            <p class="step-paragraph">
+              5 000 G моментально поступают на твой баланс в Standoff 2. Трать на любимые скины, кейсы и ножи!
+            </p>
+            <div class="step-time-pill glow-pill">⚡ Моментально</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BENEFITS / WHY US ===== -->
+    <section class="benefits-section" id="benefits">
+      <div class="container">
+        <div class="section-heading text-center reveal">
+          <span class="section-badge">Наши преимущества</span>
+          <h2 class="section-main-title">Почему геймеры выбирают нас</h2>
+          <p class="section-subtitle">Честные условия, надежная репутация и максимальная выгода для каждого игрока</p>
+        </div>
+
+        <div class="benefits-grid">
+          
+          <div class="benefit-card reveal">
+            <div class="benefit-icon-box b-gold">
+              <span>💎</span>
+            </div>
+            <div class="benefit-body">
+              <h4 class="benefit-title">Экстремальная выгода</h4>
+              <p class="benefit-text">
+                Стандартный донат 5 000 G в игре стоит от 500₽. По нашей спец-программе ты платишь всего 1₽ на старте!
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card reveal" style="transition-delay: 0.1s;">
+            <div class="benefit-icon-box b-red">
+              <span>⚡</span>
+            </div>
+            <div class="benefit-body">
+              <h4 class="benefit-title">Молниеносная доставка</h4>
+              <p class="benefit-text">
+                Автоматизированный алгоритм выплаты начисляет валюту на игровой профиль в течение 1–3 минут.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card reveal" style="transition-delay: 0.2s;">
+            <div class="benefit-icon-box b-blue">
+              <span>🛡️</span>
+            </div>
+            <div class="benefit-body">
+              <h4 class="benefit-title">Полная безопасность</h4>
+              <p class="benefit-text">
+                Все транзакции проводятся через аккредитованные шлюзы с шифрованием 256-bit SSL и протоколом 3D-Secure.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card reveal" style="transition-delay: 0.3s;">
+            <div class="benefit-icon-box b-green">
+              <span>🎯</span>
+            </div>
+            <div class="benefit-body">
+              <h4 class="benefit-title">Официальный сервис</h4>
+              <p class="benefit-text">
+                Успешно работаем с 2021 года. Свыше 65 000 геймеров уже прокачали инвентарь без блокировок аккаунта.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LIVE STATS SECTION ===== -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="stat-box reveal">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="65480">0</span>
+              <span class="stat-plus">+</span>
+            </div>
+            <span class="stat-caption">Игроков получили золото</span>
+          </div>
+
+          <div class="stat-box reveal" style="transition-delay: 0.1s;">
+            <div class="stat-number-wrap">
+              <span class="stat-number" data-target="5000">0</span>
+              <span class="stat-unit">G</span>
+            </div>
+            <span class="stat-caption">Размер приветственного пакета</span>
+          </div>
+
+          <div class="stat-box reveal" style="transition-delay: 0.2s;">
+            <div class="stat-number-wrap">
+              <span class="stat-number-static">4.97</span>
+              <span class="stat-unit">/ 5</span>
+            </div>
+            <span class="stat-caption">Средний рейтинг отзывов</span>
+          </div>
+
+          <div class="stat-box reveal" style="transition-delay: 0.3s;">
+            <div class="stat-number-wrap">
+              <span class="stat-number-static">&lt; 90</span>
+              <span class="stat-unit">сек</span>
+            </div>
+            <span class="stat-caption">Среднее время зачисления</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS SECTION ===== -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading text-center reveal">
+          <span class="section-badge">Честные мнения</span>
+          <h2 class="section-main-title">Отзывы участников акции</h2>
+          <p class="section-subtitle">Смотри, что пишут реальные игроки Standoff 2, которые уже забрали свои 5000G</p>
+        </div>
+
+        <div class="reviews-grid">
+          
+          <div class="review-card reveal">
+            <div class="review-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-tag">✓ Проверено</span>
+            </div>
+            <p class="review-content">
+              «Забрал 5000 золота буквально за 1 рубль — сразу купил скин на керамбит, о котором мечтал больше года! Зачислили минуты за две, все работает кристально честно!»
+            </p>
+            <div class="review-user">
+              <div class="user-avatar avatar-1">🎯</div>
+              <div class="user-info">
+                <span class="user-name">Artem_S2_Pro</span>
+                <span class="user-meta">Standoff 2 • 2 часа назад</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card reveal" style="transition-delay: 0.1s;">
+            <div class="review-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-tag">✓ Проверено</span>
+            </div>
+            <p class="review-content">
+              «Честно говоря, сомневался из-за смешной цены в 1₽, думал есть подвох. Но решил рискнуть и не пожалел! С рубля поднял инвентарь, открыл кейсы и выбил бабочку!»
+            </p>
+            <div class="review-user">
+              <div class="user-avatar avatar-2">⚔️</div>
+              <div class="user-info">
+                <span class="user-name">MaxKiller_Legend</span>
+                <span class="user-meta">Standoff 2 • вчера</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card reveal" style="transition-delay: 0.2s;">
+            <div class="review-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-tag">✓ Проверено</span>
+            </div>
+            <p class="review-content">
+              «Платеж в 1 рубль прошел моментально, голда упала на акк через пару минут. Уже похвастался друзьям в дискорде, они тоже себе активировали. Топовая акция!»
+            </p>
+            <div class="review-user">
+              <div class="user-avatar avatar-3">💥</div>
+              <div class="user-info">
+                <span class="user-name">ProSniper_Vlad</span>
+                <span class="user-meta">Standoff 2 • 3 дня назад</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card reveal" style="transition-delay: 0.3s;">
+            <div class="review-header">
+              <div class="review-stars">★★★★★</div>
+              <span class="verified-tag">✓ Проверено</span>
+            </div>
+            <p class="review-content">
+              «Случайно наткнулся на рекламу и успел забрать слот. 5 000 монет на счету, купил перчатки и крутой калаш. Респект сервису за оперативность и честность!»
+            </p>
+            <div class="review-user">
+              <div class="user-avatar avatar-4">👑</div>
+              <div class="user-info">
+                <span class="user-name">CyberGhost_SO2</span>
+                <span class="user-meta">Standoff 2 • 4 дня назад</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FINAL CALL TO ACTION ===== -->
+    <section class="final-cta-section" id="get-gold">
+      <div class="container">
+        <div class="final-cta-card reveal">
+          <div class="final-cta-glow"></div>
+          
+          <span class="section-badge">Не упусти момент</span>
+          <h2 class="final-cta-title">Забери свои 5 000 Золота прямо сейчас!</h2>
+          <p class="final-cta-desc">
+            Лимит мест тает с каждой минутой. Присоединяйся к десяткам тысяч счастливых игроков и прокачай свой инвентарь до максимума!
+          </p>
+
+          <a class="cta-button-primary final-btn" href="#how-it-works">
+            <span class="cta-shine"></span>
+            <span class="btn-icon">⚡</span>
+            <span class="btn-text">Получить 5000G за 1₽</span>
+            <svg class="btn-arrow" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <p class="legal-subnote">
+            Нажимая кнопку «Получить 5000G», вы соглашаетесь с правилами сервиса GoldRush.<br>
+            Первоначальное списание — всего 1 рубль. Управление подпиской и отмена доступны в любой момент.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <span class="footer-logo">STANDOFF 2 × GOLDRUSH</span>
+      </div>
+      <p class="footer-disclaimer">
+        Данный информационный ресурс не является официальным сайтом разработчиков игры Standoff 2. Все зарегистрированные товарные знаки и логотипы принадлежат соответствующим правообладателям.<br>
+        Специальное промо-предложение действительно при первой регистрации в сервисе. Стоимость со следующего расчетного периода — согласно тарифам сервиса. Отключение подписки осуществляется в пользовательском кабинете.
+      </p>
+      <div class="footer-bottom">
+        <span>© 2021–2026 GoldRush Gaming. Все права защищены.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== MOBILE STICKY FLOATING ACTION BAR ===== -->
+  <div class="mobile-sticky-bar" id="sticky-bar">
+    <a class="cta-button-primary sticky-btn" href="#get-gold">
+      <span class="cta-shine"></span>
+      <span class="btn-icon">⚡</span>
+      <span class="btn-text">Забрать 5000 Золота — 1₽</span>
+    </a>
+  </div>
+
+  <!-- ===== LIVE ACTIVITY POPUP (Social Proof) ===== -->
+  <div class="live-activity-toast" id="live-toast">
+    <div class="toast-avatar">🔥</div>
+    <div class="toast-content">
+      <p class="toast-title"><span id="toast-user">Игрок Alex_99</span> получил <strong>5000 G</strong></p>
+      <p class="toast-time"><span id="toast-seconds">12 секунд</span> назад • Проверено</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
